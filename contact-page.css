@@ -1,0 +1,99 @@
+body {
+    background-image: url(contact-page.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: none;
+}
+/* container for the circles */
+.main-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+/* circles */
+.go-back {
+    background-color: rgb(124, 183, 192);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s;
+}
+.go-back:hover {
+    background-image: url(main-page-img.jpg);
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+}
+.info {
+    background-color: rgb(124, 183, 192);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    transition: all 0.5s;
+}
+.astronomy {
+    background-color: rgb(124, 183, 192);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s;
+}
+.astronomy:hover {
+    background-image: url(title-pic.jpg);
+    background-size: cover;
+    color: white;
+}
+/* text */
+.info-lorem {
+    position: absolute;
+    bottom: 25%;
+    font-size: 20px;
+    opacity: 0;
+    transition: all 1s;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 600;
+}
+.info-lorem:hover {
+    opacity: 1;
+    color: white;
+}
+.me {
+    transition: all 0.5s;
+    opacity: 1;
+}
+.me:hover {
+    color: rgb(124, 183, 192);
+}
+.info:hover {
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

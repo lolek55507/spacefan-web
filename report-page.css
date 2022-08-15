@@ -1,0 +1,95 @@
+body{
+    background-image: url(report-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+/* containers */
+.main-container {
+    align-items: center;
+    text-align: center;
+    margin-top: 28%;
+    font-family: Arial;
+    font-weight: 600;
+}
+.container {
+    padding-top: 20px;
+    margin-top: 200px;
+}
+/* inputs */
+.report {
+    width: 300px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    height: 60px;
+    outline: none;
+    box-shadow: 2px 1px rgb(87, 54, 54);
+}
+.name {
+    width: 150px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    height: 60px;
+    margin-left: 4px;
+    outline: none;
+    box-shadow: 2px 1px rgb(87, 54, 54);
+}
+.date {
+    height: 60px;
+    margin-left: 4px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 1px rgb(87, 54, 54);
+    font-family: sans-serif;
+    text-align: center;
+    color: gray;
+    font-weight: 600;
+}
+/* checkbox */
+.checkboxp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    text-shadow: 1px 0.5px red;
+}
+/* buttons */
+.file {
+    color: transparent;
+    
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px;
+    font-size: 80px;
+    position: relative;
+}
+input[type="file"]{
+    font-size: 30px;
+    position: absolute;
+    left: 40%;
+}
+.submit-button {
+    position: absolute;
+    right: 35%;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(196, 4, 196);
+    text-shadow: -2px -2px red;
+    cursor: pointer;
+    transition: all 1s;
+}
+a:hover{
+    font-size: 45px;
+    box-shadow: 3px 3px blue;
+}
